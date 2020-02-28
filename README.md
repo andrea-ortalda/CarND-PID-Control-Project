@@ -28,7 +28,7 @@ The Derivative component is acting on the difference between the current error a
 
 ### Manual tuning
 
-
+PID parameters were firstly tuned manually 
 
 ### Twiddle
 
