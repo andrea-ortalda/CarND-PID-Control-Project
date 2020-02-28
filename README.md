@@ -32,6 +32,17 @@ PID parameters were firstly tuned manually
 
 ### Twiddle
 
+After the manual tuning, twiddle algorithm was performed. This lead to small cheanges in the I and D parameters , while the P parameter was the most affected one. Twidlle algorithm is implemented with a boolean value that enable the tuning, set to false as default.
 
+Parameter | Manual | Twiddle |
+| --- | :-------------: | :-------------: |
+P | 0.15 | 0.160013 |
+I | 0.005 | 0.00500106 |
+D | 5 | 5.00106 |
+
+<p align="center">
+	<img src="/write_up_images/twiddle.png" alt="Twiddle parameters"
+	title="Twiddle parameters"  />
+</p>
 
 
